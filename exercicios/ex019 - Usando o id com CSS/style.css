@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* id em HTML = # em CSS
+Class em HTML = . em CSS*/
+
+body{
+    background-color: greenyellow;
+}
+h1#principal{
+    text-shadow: 2px 5px 5px red;
+    color: blueviolet;
+    text-align: center;
+}
+h1{
+    color:green
+}
+h2{
+    color: aqua;
+}
+.basico{
+    color: antiquewhite;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 5px 5px rgba(0, 225, 255, 0.432);
+}

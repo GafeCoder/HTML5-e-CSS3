@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+        /* 
+        # = id
+        . = classe
+        : = pseudo-class
+        ::= pseudo-element
+        > = children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red ;
+            text-decoration: none;
+
+        }
+        a:visited{
+            color: darkblue
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/gabriel.medeiros.875" target="_blank" rel="external">Conecte-se ao meu Facebook</a></li>
+        <li><a href="https://github.com/GafeCoder" target="_blank" rel="external">Acesse meu Github</a></li>
+        <li><a href="https://www.linkedin.com/in/gabriel-fsmedeiros/" target="_blank" rel="external">Conecte-se ao meu Linkedin</a></li>
+    </ul>
+    
+</body>
+</html>
