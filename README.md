@@ -1,2 +1,2 @@
 # HTML5-e-CSS3
- Exercícios e desafios Curso em Video HTML5 e CSS3
+ Curso de HTML5 e CSS3 do CursoemVideo!
